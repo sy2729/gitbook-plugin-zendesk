@@ -1,0 +1,32 @@
+{
+  "name": "gitbook-plugin-zendesk",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "gitbook": ">1.x.x"
+  },
+  "browser": "./book/plugin.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sy2729/gitbook-plugin-zendesk.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "html-entities": "^1.2.1"
+  },
+  "gitbook": {
+    "properties": {
+        "myConfigKey": {
+            "type": "string",
+            "default": "it's the default value",
+            "description": "It defines my awesome config!"
+        }
+    }
+  }
+}
